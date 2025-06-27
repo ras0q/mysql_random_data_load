@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	tu "github.com/Percona-Lab/mysql_random_data_load/testutils"
 	_ "github.com/go-sql-driver/mysql"
 	version "github.com/hashicorp/go-version"
+	tu "github.com/ras0q/mysql_random_data_load/testutils"
 	log "github.com/sirupsen/logrus"
 )
 
