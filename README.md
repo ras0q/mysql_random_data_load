@@ -6,7 +6,13 @@ After writing many random generators for every table, I decided to write a rando
 Plase take into consideration that this is the first version and it doesn't support all field types yet!  
 
 **NOTICE**  
-This is an early stage project.  
+This is an early stage project.
+
+## Get started (forked by @ras0q)
+
+```bash
+go run github.com/ras0q/mysql_random_data_load@latest <database> <table> <number of rows> [options...]
+```
 
 ## Supported fields:
 
